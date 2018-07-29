@@ -3,5 +3,5 @@ def reverse_each_word (phrase)
 end
 
 def reverse_word (word)
-  word.chars.
+  word.chars.reverse.to_s
 end
